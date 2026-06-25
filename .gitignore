@@ -1,0 +1,29 @@
+# Node / Frontend dependencies & builds
+node_modules/
+dist/
+build/
+.eslintcache
+*.local
+
+# Python environment & cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+dphish.db
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
