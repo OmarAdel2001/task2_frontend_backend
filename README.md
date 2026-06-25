@@ -12,14 +12,14 @@ The application is split into a **Python FastAPI backend** and a **React (Vite +
 graph TD
     User([User Browser])
     
-    subgraph Frontend Container (Nginx)
-        UI[React SPA UI @ :8080]
+    subgraph Frontend ["Frontend Container (Nginx)"]
+        UI["React SPA UI @ :8080"]
     end
 
-    subgraph Backend Container (FastAPI)
-        API[FastAPI Service @ :8000]
-        Engine[Heuristic Scanner Engine]
-        DB[(SQLite DB: dphish.db)]
+    subgraph Backend ["Backend Container (FastAPI)"]
+        API["FastAPI Service @ :8000"]
+        Engine["Heuristic Scanner Engine"]
+        DB[("SQLite DB: dphish.db")]
     end
 
     User -->|Accesses UI| UI
