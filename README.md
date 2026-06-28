@@ -172,7 +172,6 @@ npm install
 # Start Vite server
 npm run dev
 ```
-The React development server launches at [http://localhost:5173](http://localhost:5173).
 
 ---
 
